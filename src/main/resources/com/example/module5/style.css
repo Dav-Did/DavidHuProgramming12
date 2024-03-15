@@ -1,0 +1,42 @@
+/* Color */
+.root {
+    -fx-font-family: 'Arial';
+    -fx-base: #7777e1;
+    -fx-background: rgba(187, 209, 227, 0.84);
+}
+
+/* Label */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+/* Text Fields */
+.text-field {
+    -fx-border-color: #9a9aff;
+    -fx-border-radius: 5px;
+}
+
+/* Password Fields */
+.password-field {
+    -fx-border-color: #9a9aff;
+    -fx-border-radius: 5px;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #3071a9, linear-gradient(to bottom, #a7b6c7 0%, #6d84b4 100%);
+    -fx-background-radius: 5;
+    -fx-background-insets: 0, 1;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: #9a9aff;
+}
+
+/* Vbox */
+.vbox {
+    -fx-spacing: 10px;
+}
